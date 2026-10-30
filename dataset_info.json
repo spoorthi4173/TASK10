@@ -1,0 +1,13 @@
+{
+  "name": "AG News",
+  "source": "https://github.com/mhjabreel/CharCnn_Keras/tree/master/data/ag_news_csv",
+  "download_url_train": "https://raw.githubusercontent.com/mhjabreel/CharCnn_Keras/master/data/ag_news_csv/train.csv",
+  "download_url_test": "https://raw.githubusercontent.com/mhjabreel/CharCnn_Keras/master/data/ag_news_csv/test.csv",
+  "license": "Publicly available for research (AG News corpus)",
+  "description": "AG News corpus contains 496,835 categorized news articles from more than 2000 news sources. The 4 classes are: World, Sports, Business, Sci/Tech.",
+  "target_variable": "class (1=World, 2=Sports, 3=Business, 4=Sci/Tech)",
+  "features": ["class", "title", "description"],
+  "collection_date": "2026-10-28",
+  "task_type": "classification",
+  "num_classes": 4
+}
